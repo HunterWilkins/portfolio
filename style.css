@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    background: pink;
+}
+
+header, nav {
+    text-align:center;
+}
+
+nav {
+    border-bottom: black dotted 4px;
+}
+
+/* figure {
+    background: url("./mo.jpg");
+} */
+
+img {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+figure > * {
+    margin: 0 auto;
+    display: block;
+    text-align:center;
+}
+
+.spacer {
+    height: 600px;
+}
